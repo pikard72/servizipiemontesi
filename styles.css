@@ -1,17 +1,22 @@
-/* Stile Generale */
+/* Font globale per la pagina */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #fff; /* Testo bianco per visibilità sopra l'immagine */
     line-height: 1.6;
-    height: 100vh; /* Imposta l'altezza del corpo */
-    overflow-y: auto; /* Abilita lo scroll verticale */
+    height: 100vh;
+    overflow-y: auto;
+    background-image: url('sfondo.jpg'); /* Inserisci il percorso dell'immagine */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 /* Intestazione */
 header {
-    background-color: #2d2d2d;
+    background-color: rgba(45, 45, 45, 0.8);
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -37,38 +42,51 @@ nav ul li a {
     color: white;
     text-decoration: none;
     font-weight: bold;
+    font-size: 16px;
     padding: 5px 10px;
     transition: background-color 0.3s;
 }
 
 nav ul li a:hover {
-    background-color: #444; /* Colore al passaggio del mouse */
+    background-color: #444;
 }
 
 /* Contenuto Principale */
 #content {
-    padding: 20px;
+    padding: 40px 20px;
     text-align: center;
-    background-color: #f9f9f9; /* Colore di sfondo */
-    min-height: 80vh; /* Imposta l'altezza minima per garantire lo scroll */
-    position: relative; /* Necessario per il posizionamento */
+    /* Rimuovi lo sfondo semitrasparente */
+    background: none;
+    min-height: 80vh;
+    margin: 20px auto;
+    max-width: 900px; /* Limita la larghezza del contenuto per una migliore leggibilità */
 }
 
-#content img {
-    width: 100%;
-    max-width: 600px;
-    height: auto;
-    border-radius: 5px; /* Angoli arrotondati per le immagini */
+#content h1 {
+    font-size: 48px; /* Font più grande per il titolo */
+    font-weight: 700;
+    color: #fff; /* Testo bianco per contrastare lo sfondo */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6); /* Aggiungi un'ombra al testo per migliorarne la leggibilità */
+}
+
+#content p {
+    font-size: 20px; /* Font più grande per il testo */
+    color: #fff; /* Testo bianco */
+    line-height: 1.8;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6); /* Aggiungi un'ombra leggera per migliorare la visibilità del testo */
 }
 
 /* Piè di pagina */
 footer {
-    background-color: #f2f2f2;
+    background-color: rgba(242, 242, 242, 0.8);
     text-align: center;
     padding: 10px 0;
-    border-top: 1px solid #ccc; /* Linea sopra il piè di pagina */
+    border-top: 1px solid #ccc;
 }
 
 footer p {
     margin: 5px 0;
+    font-size: 14px;
+    color: #555;
 }
+
