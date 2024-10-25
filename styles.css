@@ -89,6 +89,22 @@ footer p {
     font-size: 14px;
     color: #555;
 }
+.contact {
+    padding-left: 10px; /* Aggiusta il valore secondo le tue esigenze */
+}
 
+.intro {
+    margin-left: 10px; /* Puoi modificare il valore per ottenere l’allineamento desiderato */
+    /* Oppure */
+    padding-left: 10px; /* Questo aggiunge uno spazio interno invece che spostare l'intera sezione */
+}
 
-
+.services {
+    margin-left: 10px; /* Puoi modificare il valore per ottenere l’allineamento desiderato */
+    /* Oppure */
+    padding-left: 10px; /* Questo aggiunge uno spazio interno invece che spostare l'intera sezione */
+}
+.small-text {
+    font-size: 12px; /* Imposta la dimensione del font desiderata */
+    color: #555; /* Puoi anche cambiare il colore se vuoi */
+}
