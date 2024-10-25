@@ -1,0 +1,76 @@
+/* Stile generale per la pagina */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4a90e2;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 1em;
+}
+
+/* Container dei servizi */
+.services-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Box di ogni servizio */
+.service-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+    text-align: center;
+}
+
+.service-box img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.service-box h3 {
+    color: #4a90e2;
+    font-size: 1.4em;
+    margin: 15px 0 10px;
+}
+
+.service-box p {
+    padding: 0 15px 20px;
+    font-size: 0.9em;
+    color: #666;
+}
+
+/* Effetto hover */
+.service-box:hover {
+    transform: scale(1.05);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .service-box {
+        width: 90%;
+    }
+}
