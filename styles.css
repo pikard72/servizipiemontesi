@@ -158,3 +158,8 @@ footer p {
         width: 90%;
     }
 }
+
+    .contact a {
+        color: white;
+        text-decoration: none; /* Rimuove la sottolineatura, se desideri */
+    }
