@@ -108,10 +108,8 @@ footer p {
     font-size: 2.4rem;
     color: #4ae28e;
     text-shadow: 1px 1px 8px rgba(0,0,0,0.9);
-    border-bottom: 3px solid #4ae28e;
-    display: inline-block;
-    padding-bottom: 8px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .intro h3 {
