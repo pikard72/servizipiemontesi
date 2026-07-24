@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
     height: 100vh;
     overflow-y: auto;
-    background-image: url('sfondo.jpg'); /* Inserisci il percorso dell'immagine */
+    background-image: url('https://plus.unsplash.com/premium_photo-1676110935657-3c43372c8bc2?fm=jpg&q=80&w=3000&auto=format&fit=crop');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
