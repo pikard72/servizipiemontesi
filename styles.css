@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-style: italic;
+}
+
 /* Font globale per la pagina */
 body {
     font-family: 'Montserrat', sans-serif;
@@ -106,7 +113,7 @@ footer p {
 
 .intro h2 {
     font-size: 2.4rem;
-    color: #4ae28e;
+    color: #fff;
     text-shadow: 1px 1px 8px rgba(0,0,0,0.9);
     margin-bottom: 20px;
     text-align: center;
@@ -114,12 +121,13 @@ footer p {
 
 .intro h3 {
     font-size: 1.25rem;
-    color: #4ae28e;
+    color: #fff;
     text-shadow: 1px 1px 6px rgba(0,0,0,0.9);
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    text-transform: none;
+    letter-spacing: normal;
     margin-top: 30px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 .services {
