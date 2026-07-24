@@ -99,9 +99,28 @@ footer p {
 }
 
 .intro {
-    margin-left: 10px; /* Puoi modificare il valore per ottenere l’allineamento desiderato */
-    /* Oppure */
-    padding-left: 10px; /* Questo aggiunge uno spazio interno invece che spostare l'intera sezione */
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.intro h2 {
+    font-size: 2.4rem;
+    color: #4ae28e;
+    text-shadow: 1px 1px 8px rgba(0,0,0,0.9);
+    border-bottom: 3px solid #4ae28e;
+    display: inline-block;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+.intro h3 {
+    font-size: 1.25rem;
+    color: #4ae28e;
+    text-shadow: 1px 1px 6px rgba(0,0,0,0.9);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .services {
